@@ -28,7 +28,7 @@ if %errorlevel% equ 0 (
 start cmd /k "npm install && exit /b"
 
 cd "src"
-start cmd /k "npm run dev"
+start /W cmd /k "npm run dev"
 
-timeout /t 3 > nul
+timeout /t 5 > nul
 start Chrome --new-window "http://localhost:5173"
