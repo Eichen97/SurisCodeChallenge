@@ -8,8 +8,9 @@ Open Run.bat on the project root, it would check for dependencies and try to ope
 
 This project requires .Net SDK and NodeJS (including npm) to run.
 
-if you want to run it youself, you would need to open Visual Studio 2022 (.NET 8) and open the solution inside the "Back" folder first. at that point, you should see button with the green arrow at the top to run the project;
-but in case you want to run teh command on the terminal anyway, here it is:
+if you want to run it yourself, you would need to open Visual Studio 2022 (.NET 8) and open the solution inside the "Back" folder. Once fully loaded, just run the project manually. 
+
+in case you want to run the command by yourself, at a terminal inside the "Back" folder type:
 
 ```bash
 npm run dev
