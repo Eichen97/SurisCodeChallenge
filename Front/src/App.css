@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.monke
+{
+  cursor:help;
+}
+
+.monke:hover + .hide {
+  position: absolute;
+  transform: translate(3%,-150%);
+  display: block;
+  color: #6a8fff;
+}
